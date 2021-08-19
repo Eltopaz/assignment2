@@ -1,0 +1,59 @@
+<!doctype>
+<html>
+<head>
+
+<title> Assignment 2</title>
+<link rel="icon" type="image/jpg" href="elto.jpeg">
+<style>
+table,th {
+border:2px solid black;
+border-collapse:collapse;
+}
+table{width:150px;
+height:150px;
+}
+.rows {
+  display: flex;
+  margin:100px;
+
+}
+
+.cols {
+  
+  padding-left:70px;
+}
+#one{ color:blue;}
+
+</style>
+</head>
+<body> 
+<div class="rows">
+<div class="cols">
+<table >
+<caption id="one"><i> Table with rowspan<i></caption>
+<tr> 
+<th rowspan="2"> A </th>
+<th> B </th>
+</tr>
+<tr>
+<th> C </th>
+</tr>
+</table>
+</div>
+<div class="cols">
+<table>
+<caption id="bott"><strong> Table with colspan</strong></caption>
+<tr> 
+<th colspan="2"> A </th>
+</tr>
+<tr>
+<th> B </th>
+
+<th> C </th>
+</tr>
+
+</table>
+</div>
+</div>
+</body>
+</html>
